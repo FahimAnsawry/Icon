@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+
+body {
+   height:500px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+
+}
+
+.icons {
+
+    height: 60px;
+    width: 300px;
+   background-color: #cb1685;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    
+
+
+
+}
+
+.icons .icon {
+    padding: 12px 12px;
+font-size: 20px;
+    margin: 0 10px;
+font-weight: 600;
+  
+}
+
+.icons .icon:nth-of-type(1) {
+    padding: 12px 15px;
+}
+.icons .icon:hover
+{
+    color: rgb(236, 64, 25);
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.icons .icon:nth-of-type(1):hover
+
+{
+background-color: blue;
+color: beige;
+
+}
+.icons .icon:nth-of-type(2):hover
+{
+    color: blue;
+}
+.icons .icon:nth-of-type(4):hover
+{
+    color: black;
+}
